@@ -1,0 +1,29 @@
+NginX:
+Nginx is a high-performance web server and reverse proxy server that can also be used for load balancing, mail proxying, and HTTP caching.
+Nginx is known for its speed and efficiency, making it a great choice for serving static content, as well as acting as a reverse proxy to distribute traffic to multiple servers.
+
+
+Apache Tomcat:
+Apache Tomcat is an open-source implementation of the Jakarta Servlet, Jakarta Server Pages (JSP), and other Java technologies.
+It serves as a Java servlet container, which means it can host Java-based web applications and manage Java servlets to process requests and generate responses efficiently
+Tomcat is widely used for its robustness and scalability, making it a popular choice for developing and deploying dynamic web applications.
+
+Webserver and Webservice:
+
+Webserver:
+Function: A web server is software designed to serve web pages to users. It handles HTTP requests from clients (like web browsers) and responds with HTML pages, images, and other resources.
+Examples: Apache HTTP Server, Nginx, Microsoft IIS.
+Usage: Primarily used to host websites and deliver static content (like HTML, CSS, JavaScript) and dynamic content (via server-side scripts like PHP, ASP.NET).
+
+Webservice:
+A web service is an application that runs on a web server.
+It results in a series of URLs that return data in a format intended to be parsed by a generic computer program (not just a browser).
+Web services can use various data formats, such as XML, SOAP, or JSON (as long as both sides agree).
+Unlike web pages, web services don’t necessarily rely on the HTTP protocol; they can use other protocols too.
+Web services serve structured data to calling programs, making them suitable for tasks beyond rendering HTML for browsers.
+
+RabbitMQ:
+RabbitMQ facilitates communication between different parts of a system by allowing them to exchange messages.
+It acts as a middleman that ensures reliable delivery of messages from one component to another.
+
+Mem cache is a database caching.
