@@ -27,3 +27,22 @@ RabbitMQ facilitates communication between different parts of a system by allowi
 It acts as a middleman that ensures reliable delivery of messages from one component to another.
 
 Mem cache is a database caching.
+
+In Apllication.properties file:
+#JDBC Configutation for Database Connection
+#Memcached Configuration For Active and StandBy Host
+#RabbitMq Configuration
+#Elasticesearch Configuration
+
+
+by using https Certificate for https encryption will be mentioned in ACM Amazon Certificate Manager Service.
+
+
+architectural design of AWS:
+ec2 instances
+three separate security groups(security groups for load balancer, Tomcat and backend services)
+Amazon Route 53 for DNS Private Zones (We will update IP to name mapping in Route 53)
+S3 for storage (we upload our artifact to a s3 bucket From S3 bucket we will download our artifact to ec2 instance, where tomcat service will be running.)
+elastic load balancer (Then we'll set up a load balancer with https connection,Will map our elastic load balancer and point to a website in GoDaddy DNS and will verify)
+Amazon certificate manager and Route 53 service.
+
