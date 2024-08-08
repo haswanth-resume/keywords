@@ -46,3 +46,6 @@ S3 for storage (we upload our artifact to a s3 bucket From S3 bucket we will dow
 elastic load balancer (Then we'll set up a load balancer with https connection,Will map our elastic load balancer and point to a website in GoDaddy DNS and will verify)
 Amazon certificate manager and Route 53 service.
 
+
+to encode passwords or anything use below command:
+echo -n "passord" | base64
